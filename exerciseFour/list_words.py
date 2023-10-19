@@ -13,9 +13,7 @@ lst_words = []
 name = input('Please enter name ')
 
 while name != 'Stop':
-
     lst_words.append(name)
-
     name = input('Please enter name ')
 
 print(len_words(lst_words))
