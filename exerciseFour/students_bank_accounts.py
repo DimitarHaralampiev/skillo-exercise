@@ -11,6 +11,7 @@ def assign_bank_account(student_id, bank_account_id):
         student_bank_accounts[student_id] = [bank_account_id]
 
 
+# Example usage:
 command = input('Please enter command (Add/Stop) ')
 
 while command != 'Stop':
